@@ -1,0 +1,11 @@
+Integer -> int
+Floating Numbers -> float
+Boolean -> bool
+String -> str
+
+1) Height of a person -> float
+2) population of a country -> int
+3) number of students -> int
+4) velocity/speed of rocket -> float
+5) True/False -> boolean
+6) '🤣' -> '4.5"

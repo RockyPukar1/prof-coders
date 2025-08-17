@@ -1,0 +1,44 @@
+Variable -> Vary(change) + able(ability to do)
+Constants -> Fixed
+
+PI -> constant
+height of a person -> Variable
+height of mount everest -> Variable
+number of banana in one dozen -> constant
+<variable> = <value>
+
+# Operators
+= -> assignment operator
+() -> parentheses
+{} -> curly braces
+[] -> bracket notation
++ -> addition operator
+- -> subtraction operator
+*(asterisk) -> multiplication operator
+/(forward slash) -> quotient operator
+\(background slash) -> escape character
+%(modulo) -> remainder operator
+&(ampersand)
+5 / 2 -> 2.5
+# Operators
+## Arithmetic Operators
++ -> addition, string concatenation
+- -> subtraction
+* -> multiplication
+/ -> division
+** -> power
+% -> remainder 10 % 3 -> 1
+
+## Comparision Operators
+== -> equality Comparision operator
+!= -> not equality Comparision operator
+> -> greater than operator
+< -> smaller than operator
+>= -> greater than or equal to operator
+<= -> less than or equal to operator 
+
+# Input and output
+input
+print
+prompt cin scanf
+print prinf System.out.println cout console.log

@@ -1,0 +1,37 @@
+# File and Folder
+File -> content/empty
+Folder -> file/folder/file+folder/empty
+
+# Extensions
+## Files
+1) MSWord -> .docx
+2) MSPresentation -> .pptx
+3) MSExcel -> xls
+4) Notepad -> .txt -> text
+## Images -> .png, .jpg, .jpeg, .gif
+## Programming Language
+1) Python -> .py
+2) Java -> .java
+3) C -> .c
+4) C++ -> .cpp
+5) HTML -> .html
+6) CSS -> .css
+7) Javascript -> .js
+8) PHP -> .php
+
+-> State(Solid, Liquid, Gas)
+# Electricity(ON/CLOSE, OFF/OPEN)
+# 1(On) 0(OFF)
+4 -> convert to 1 or 0 -> 0100
+
+# Terminal
+-> Command Line Input
+1) pwd -> print working directory/folder
+2) ls -> list files and folders
+3) cd <path> -> change directory/folder
+4) find -> to list all directory recursively
+5) mkdir <foldername> -> make directory
+6) touch <filename> -> create file
+7) rm <filename> -> remove file
+8) rm -rf <folder> -> remove -recursively force
+9) clear -> clear terminal

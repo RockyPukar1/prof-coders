@@ -1,0 +1,35 @@
+# Data/Information
+-> can be categorized/grouped
+
+# Data Types
+1) Primitive
+    -4 -3 -2 -1 0 +1 +2 +3 +4
+    a) Integer(numbers without points/decimals)
+    -> -infinity ... 0 ... +infinity
+    eg: 12, -7, 0, 
+    b) Floating numbers(numbers with points/decimals)
+    -> -infinity ... 0 ... +infinity
+    eg: 3.1415, -0.043, 0.00
+    c) Boolean: True, False
+    -> I am dancing.
+    -> Yes(True)/No(false) Question? -> Am I dancing?
+        -> am_i_dancing = True
+    -> He is here
+        -> Is he here? -> True
+        -> is_he_here = True
+    -> This should not happen
+        -> should this happen? -> False
+        -> should_this_happen = False
+    -> I am sorry
+        -> Am I sorry ? -> True
+        -> am_i_sorry = True
+    d) String(Anything wrapped between single quote ' or double quote " but not both)
+    NOTE:
+    - In other programming language char->'a', string-> "a"
+    - Null, undefined
+2) Non-primitive
+    a) List
+    b) Set
+    c) Tuple
+    d) Dictionary/object
+

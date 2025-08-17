@@ -1,0 +1,40 @@
+if <condition>:
+  // this code runs only when the condition is True
+else:
+  // this code runs when all other if and elif fails
+
+
+num = int(input("Enter a number: "))
+
+if num == 0:
+  print("ZERO")
+else:
+  if num < 0:
+    print("Negative")
+  else:
+    print("Positive")
+
+if num == 0:
+  print("ZERO")
+elif num < 0:
+  print("NEGATIVE")
+else:
+  print("POSITIVE")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+choice = input("Enter +, -, *, /: ")
+
+if choice == "+":
+  print(num1 + num2)
+elif choice == "-":
+  print(num1 - num2)
+elif choice == "*":
+  print(num1 * num2)
+elif choice == "/":
+  if num2 == 0:
+    print("Cannot be divided by zero")
+  else:
+    print(num1 / num2)
+else:
+  print("Wrong input")
