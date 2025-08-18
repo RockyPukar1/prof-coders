@@ -1,0 +1,9 @@
+1. // two input from user, convert to integer
+// subtract them
+// on the basis of answer, 4, 5 => 4 - 5 -> -1
+x = a - b
+if x < 0
+  print b - a
+if not:
+  print a - b
+b - a

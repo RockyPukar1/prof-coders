@@ -1,0 +1,21 @@
+// Repeat certain code block
+// wrap inside loop
+// write logic for repeat
+
+// for loop
+// while / do while
+
+// addition and subtraction assignment operator
+
+range(starting, ending - 1)
+for <iterator> in collection:
+  // code block
+
+# 2. Mutual friends
+ashvik_friends = ["Ashish", "Arabh", "Arnav", "Pukar"]
+lami_friends = ["Uniq", "Avinash", "Pukar" , "Binod"]
+
+for af in ashvik_friends:
+  for lf in lami_friends:
+    if (af == lf):
+      print("Mutual friend found:", af)

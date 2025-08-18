@@ -28,7 +28,10 @@
     - In other programming language char->'a', string-> "a"
     - Null, undefined
 2) Non-primitive
-    a) List
+    a) List/Collection
+    index/position
+    - start 0
+    [item, item, item]
     b) Set
     c) Tuple
     d) Dictionary/object
