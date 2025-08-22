@@ -1,0 +1,38 @@
+function
+-> group of code, given a name
+-> call/invoke to execute/run
+-> call be called as many number of times
+-> and from anywhere if the function is already seen
+
+// function defination
+def <function_name>(<parameters>):
+  // code
+
+// call/invoke
+<function_name>(arguments)
+
+// avoid these things in function
+1. Circular dependency
+def one():
+  print(1)
+  two()
+
+def two():
+  print(2)
+  three()
+
+def three():
+  print(3)
+  four()
+
+def four():
+  print(4)
+  five()
+
+def five():
+  print(5)
+  five()
+
+one()
+
+2. Recursion, with ending condition

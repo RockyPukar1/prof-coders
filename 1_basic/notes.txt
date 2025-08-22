@@ -35,3 +35,27 @@ Folder -> file/folder/file+folder/empty
 7) rm <filename> -> remove file
 8) rm -rf <folder> -> remove -recursively force
 9) clear -> clear terminal
+
+
+// Programming language
+0, 1
+1. Low level
+  a. Machine level/Binary code
+  -> 0, 1
+  b. Assembly level
+  -> Motherboard/CPU -> RAM(Register)
+  -> Machine dependent
+2. High level
+  a. Procedural/functional
+  -> Top to bottom
+  b. Object Oriented
+  -> objects classes
+  c. NLP(Natural Language Processing)
+  -> LISP
+
+// Language Translators
+1. Assembler
+2. Compiler
+-> translates at once
+3. Interpreter
+-> translates one line at time

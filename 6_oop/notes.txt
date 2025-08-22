@@ -1,0 +1,12 @@
+POP                               OOP
+variables                         properties/attributes
+functions                         methods
+
+OOP -> object oriented programming
+
+# Class
+-> blueprint of real world entity
+
+# object
+-> instance of class
+-> collection of variables and functions
