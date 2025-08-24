@@ -1,0 +1,36 @@
+# List
+-> Where position matters
+collection = [
+  "Ashvik",
+  "Mahesh",
+  "Kritik"
+]
+
+
+# Dictionary
+-> key must be always immutable data type
+-> value can be anything
+-> where key matters
+{
+  key: value
+}
+
+0 - 99 # index(0)
+ 1 - 100 # natural number(1)
+
+# List
+results = {
+  0: "Ashvik",
+  1: "Mahesh",
+  2: "Kritik",
+}
+print(results[1])
+
+# Dictionary
+characters = {
+  "weight": 45,
+  "height": 200,
+  0: 12,
+  "hair_color": "black",
+}
+print(characters[0])

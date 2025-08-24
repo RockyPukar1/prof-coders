@@ -1,10 +1,25 @@
 function
--> group of code, given a name
+-> group of code, given a name, specific job
 -> call/invoke to execute/run
 -> call be called as many number of times
 -> and from anywhere if the function is already seen
 
-// function defination
+# Parameters:
+-> placeholder for value
+
+# arguments
+-> value given when function called
+
+# return
+-> what the function gives back when called
+-> only one value can be returned
+
+# Built-in function
+-> print("Hello"), input(), int(), range()
+# User defined function
+-> sum(), multi()
+
+// function definition
 def <function_name>(<parameters>):
   // code
 
@@ -36,3 +51,41 @@ def five():
 one()
 
 2. Recursion, with ending condition
+
+
+#
+def sum(a, b):
+  print("sum function called")
+  return a + b
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+#
+sum1 = sum(num1, num2)
+
+num3 = int(input("Enter third number: "))
+num4 = int(input("Enter second number: "))
+
+#
+sum2 = sum(num3, num4)
+
+num5 = int(input("Enter fifth number: "))
+num6 = int(input("Enter sixth number: "))
+
+#
+sum3 = sum(num5, num6)
+
+num7 = int(input("Enter seventh number: "))
+num8 = int(input("Enter eight number: "))
+
+#
+sum4 = sum(num7, num8)
+
+total = sum(sum1, sum2)
+total = sum(total, sum3)
+total = sum(total, sum4)
+
+# total = sum(sum1, sum2)
+# total += sum(sum3, sum4)
+print(total)

@@ -31,8 +31,9 @@
     a) List/Collection
     index/position
     - start 0
-    [item, item, item]
+    [item1, item2, item3]
     b) Set
     c) Tuple
     d) Dictionary/object
+    -> key value pair
 
