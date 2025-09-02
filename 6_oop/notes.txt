@@ -10,3 +10,57 @@ OOP -> object oriented programming
 # object
 -> instance of class
 -> collection of variables and functions
+
+# Four pillars of OOP
+private(to no one), public(to all), protected(to child only)
+1. Abstraction(4)
+-> implementation(method) hiding
+2. Encapsulation(2)
+-> data(property) hiding
+3. Polymorphism(3) -> Poly(many) + morph(form)
+-> different implementation of method
+4. Inheritance(1)
+-> What you get from you ancestors(parents->grand parents)
+-> Property, Characteristics
+-> To draw characters
+
+
+class Animal:
+  # Property
+  can_move = True
+  can_eat = True
+
+  # Method
+  # Constructor
+  def __init__(self, name):
+    self.name = name
+
+class WaterAnimal(Animal):
+  # Property
+  can_breathe_underwater = True
+
+class LandAnimal(Animal):
+  # Property
+  can_breathe_underwater = False
+
+class DomesticAnimal(LandAnimal):
+  # Property
+  lives_around_us = True
+
+class WildAnimal(LandAnimal):
+  # Property
+  lives_around_us = False
+
+class PetAnimal(DomesticAnimal):
+  pass
+
+octopus = WaterAnimal()
+cat = PetAnimal()
+dog = PetAnimal()
+lion = WildAnimal()
+elephant = WildAnimal()
+cheetah = WildAnimal()
+
+print(lion.can_breathe_in_land)
+print(elephant.can_breathe_in_land)
+print(cheetah.can_breathe_in_land)

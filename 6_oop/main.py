@@ -1,12 +1,13 @@
-class Vehicle:
-  def speed():
-    pass
+class Animal:
+  # Property
+  can_move = True
+  can_eat = True
 
-  def color():
-    pass
+  # Method
+  # Constructor
+  def __init__(self, name):
+    self.name = name
 
-  def fuel_capacity():
-    pass
+octopus = Animal()
 
-car = Vehicle()
-bike = Vehicle()
+# print(octopus, dog, animal, "animal", 123, )
