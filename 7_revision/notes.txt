@@ -1,0 +1,47 @@
+# Data type
+1. Primitive (simple)/ single value
+  -> integer, floating numbers(decimal numbers), Boolean(True, False), String(double/single quote, not both)
+2. Non-primitive (mixture of primitive)/ multi-value
+  -> List/Array(index(number starting 0) based), Dictionary/Object(key: value pair)
+  -> Tuple(same as list, but immutable), Set(Same as list, no duplicate)
+
+# If else
+if <condition>:
+  // if condition True
+else:
+  // if condition False
+
+# If elif else
+if <condition1>:
+  // code
+elif <condition>:
+  // code
+...
+else:
+  // code
+
+# Loop
+for i in range(starting, ending):
+  print(i)
+
+# Function
+// Defination
+def <function_name>(parameters):
+  // code
+  // return(optional)
+
+// Call/Invoke
+<function_name>(arguments)
+
+
+# OOP(Object Oriented Programming)
+-> Class(Property/Attribute(variable), Methods(function))
+-> Object(instance of class)
+
+# Pillar
+-> Inheritance
+  -> to take from parent -> parent -> parent
+-> Polymorphism
+-> Encapsulation
+-> Abstraction
+

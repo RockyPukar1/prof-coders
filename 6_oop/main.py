@@ -1,13 +1,17 @@
-class Animal:
-  # Property
-  can_move = True
-  can_eat = True
-
-  # Method
+class Student:
+  # Static Property/Attribute
+  count = 0
+  
   # Constructor
-  def __init__(self, name):
-    self.name = name
+  def __init__(self):
+    Student.count = Student.count + 1
 
-octopus = Animal()
+  # Static methods
+  @staticmethod
+  def print_count():
+    print("The total student is:", Student.count)
 
-# print(octopus, dog, animal, "animal", 123, )
+ashvik = Student()
+amulya = Student()
+
+Student.print_count()

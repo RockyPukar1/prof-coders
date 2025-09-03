@@ -64,3 +64,26 @@ cheetah = WildAnimal()
 print(lion.can_breathe_in_land)
 print(elephant.can_breathe_in_land)
 print(cheetah.can_breathe_in_land)
+
+
+
+class Animal:
+  can_move = True
+  can_eat = True
+
+  # Methods
+  # 1. Constructor
+  # init -> initial
+  def __init__(self, name, legs):
+    self.name = name
+    self.legs = legs
+
+
+octopus = Animal("Octo - The Fortune Teller", 8)
+lion = Animal("Mufasa - The Lion King", 4)
+
+print("The name of octopus is:", octopus.name)
+print("Legs:", octopus.legs)
+
+print("The name of lion is:", lion.name)
+print("Legs:", lion.legs)
