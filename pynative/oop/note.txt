@@ -1,0 +1,68 @@
+Link: https://pynative.com/python-object-oriented-programming-oop-exercise/
+
+1. Create a Class with instance attributes
+class Vehicle:
+  # Static Attribute/Property
+  
+  # Method
+  # constructor
+  def __init__(self, max_speed, mileage):
+    # Instant attribute/property
+    self.max_speed = max_speed
+    self.mileage = mileage
+
+
+car = Vehicle(500, 20)
+
+print(car.max_speed)
+print(car.mileage)
+
+2. Create a Vehicle class without any variables and methods
+class Vehicle:
+  pass
+
+3. Create a child class Bus that will inherit all of the variables and methods of the Vehicle class
+class Vehicle:
+  def __init__(self, name, max_speed, mileage):
+    self.name = name
+    self.max_speed = max_speed
+    self.mileage = mileage
+  
+
+class Bus(Vehicle):
+  def __init__(self, name, max_speed, mileage):
+    super().__init__(name, max_speed, mileage)
+  
+  def __str__(self):
+    return f"Vehicle name = {self.name}, max speed = {self.max_speed}, mileage = {self.mileage}"
+    # return "Vehicle name = " + self.name + ", max speed = " + str(self.max_speed) + ", mileage = " + str(self.mileage)
+
+eicher = Bus("Eicher - The Horseman", 230, 35)
+honda = Bus("Honda - Vrum vrum", 500, 20)
+
+print(eicher)
+print(honda)
+
+*: Program to name file as untitled-{number}
+class FileName:
+  count = 0
+  def __init__(self, file_name = None):
+    if file_name is None:
+      FileName.count = FileName.count + 1
+      self.file_name = f"Untitled-{FileName.count}"
+    else:
+      self.file_name = file_name
+  
+  @staticmethod
+  def delete_file():
+    FileName.count = FileName.count - 1
+
+oop = FileName()
+python = FileName("main.py")
+java = FileName()
+FileName.delete_file()
+c = FileName()
+print(oop.file_name)
+print(python.file_name)
+print(java.file_name)
+print(c.file_name)
