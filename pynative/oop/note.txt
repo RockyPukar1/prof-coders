@@ -43,6 +43,53 @@ honda = Bus("Honda - Vrum vrum", 500, 20)
 print(eicher)
 print(honda)
 
+
+4. Class Inheritance
+class Vehicle:
+  def __init__(self, name, max_speed, mileage):
+    self.name = name
+    self.max_speed = max_speed
+    self.mileage = mileage
+
+  def seating_capacity(self, capacity):
+    return f"The seating capacity of a {self.name} is {capacity} passengers"
+
+class Bus(Vehicle):
+  def __init__(self, name, max_speed, mileage):
+    super().__init__(name, max_speed, mileage)
+
+  # Override
+  # Polymorphism
+  def seating_capacity(self, capacity = 50):
+    return f"The seating capacity of a {self.name} is {capacity} passengers"
+
+eicher = Bus("Eicher - The Horseman", 230, 50)
+print(eicher.seating_capacity())
+
+
+5. Define a property that must have the same value for every class instance (object)
+class Vehicle:
+  color = "white"
+  def __init__(self, name, max_speed, mileage):
+    self.name = name
+    self.max_speed = max_speed
+    self.mileage = mileage
+
+class Bus(Vehicle):
+  pass
+
+class Car(Vehicle):
+  pass
+
+
+School_bus = Bus("School Volvo", 180, 12)
+print(School_bus.color, School_bus.name, "Speed:", School_bus.max_speed, "Mileage:", School_bus.mileage)
+
+car = Car("Audi Q5", 240, 18)
+print(car.color, car.name, "Speed:", car.max_speed, "Mileage:", car.mileage)
+
+
+
 *: Program to name file as untitled-{number}
 class FileName:
   count = 0

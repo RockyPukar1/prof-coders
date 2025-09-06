@@ -18,7 +18,7 @@ private(to no one), public(to all), protected(to child only)
 2. Encapsulation(2)
 -> data(property) hiding
 3. Polymorphism(3) -> Poly(many) + morph(form)
--> different implementation of method
+-> different implementation of method(overriding, overloading)
 4. Inheritance(1)
 -> What you get from you ancestors(parents->grand parents)
 -> Property, Characteristics

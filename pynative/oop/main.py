@@ -1,22 +1,19 @@
-class FileName:
-  count = 0
-  def __init__(self, file_name = None):
-    if file_name is None:
-      FileName.count = FileName.count + 1
-      self.file_name = f"Untitled-{FileName.count}"
-    else:
-      self.file_name = file_name
-  
-  @staticmethod
-  def delete_file():
-    FileName.count = FileName.count - 1
+class Vehicle:
+  color = "white"
+  def __init__(self, name, max_speed, mileage):
+    self.name = name
+    self.max_speed = max_speed
+    self.mileage = mileage
 
-oop = FileName()
-python = FileName("main.py")
-java = FileName()
-FileName.delete_file()
-c = FileName()
-print(oop.file_name)
-print(python.file_name)
-print(java.file_name)
-print(c.file_name)
+class Bus(Vehicle):
+  pass
+
+class Car(Vehicle):
+  pass
+
+
+School_bus = Bus("School Volvo", 180, 12)
+print(School_bus.color, School_bus.name, "Speed:", School_bus.max_speed, "Mileage:", School_bus.mileage)
+
+car = Car("Audi Q5", 240, 18)
+print(car.color, car.name, "Speed:", car.max_speed, "Mileage:", car.mileage)
