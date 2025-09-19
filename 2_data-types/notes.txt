@@ -31,9 +31,13 @@
     a) List/Collection
     index/position
     - start 0
+    - ordered, mutable, can have duplicate
     [item1, item2, item3]
-    b) Set
-    c) Tuple
+    b) Tuple
+    - ordered, immutable, can have duplicate
+    c) Set
+    - unordered, immutable, no duplicate
+
     d) Dictionary/object
     -> key value pair
 
