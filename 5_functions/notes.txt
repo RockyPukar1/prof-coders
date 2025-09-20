@@ -89,3 +89,44 @@ total = sum(total, sum4)
 # total = sum(sum1, sum2)
 # total += sum(sum3, sum4)
 print(total)
+
+set_a = {4, 5, 11, 5, 13}
+set_b = {5, 11, 16, 17}
+set_c = {15, 16, 18}
+
+class SetOperation:
+  def find_intersection(self, *arg):
+    print(arg)
+    match len(arg):
+      case 2:
+        for i in range(10): # earth (15000)
+          star = ""
+          for _ in range(i):
+            star += " *"
+          print(star)
+      case 3:
+        print("three")
+
+result = SetOperation()
+result.find_intersection(set_a, set_b)
+# result.find_intersection(set_a, set_b, set_c)
+# *
+# * *
+# * * *
+--------------------------------------
+items = ["apple", "banana", "apple", "orange", "banana", "apple"]
+
+items_count = {}
+# find count of each number
+for current_item in items:
+  if current_item in items_count:
+    continue
+  count = 0
+  for searching_item in items:
+    if current_item == searching_item:
+      count += 1
+  items_count[current_item] = count
+
+
+print(items_count)
+-------------------------------------
