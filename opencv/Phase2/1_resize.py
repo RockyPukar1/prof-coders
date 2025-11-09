@@ -11,7 +11,7 @@ if image is not None:
   cv.imshow("Original image", image)
   cv.imshow("Resized image", resized)
 
-  cv.imwrite("Phase2/resized_output.jpeg", resized);
+  cv.imwrite("Phase2/resized_output.jpeg", resized)
 
   cv.waitKey(0)
   cv.destroyAllWindows()
