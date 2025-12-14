@@ -1,6 +1,6 @@
 import cv2 as cv
 
-camera = cv.VideoCapture(0)
+camera = cv.VideoCapture("my_video.mp4")
 
 while True:
   (result, frame) = camera.read()
